@@ -5,7 +5,6 @@ class Smokeshack : Burger(){
     override val name : String
         get() = "Smokeshack"
 
-
     override val price : Double
         get() = 8.9
 
