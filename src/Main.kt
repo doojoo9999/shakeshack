@@ -9,6 +9,7 @@ fun main() {
     println("4. Beers")
     println("0. Quit")
 
+
     val selectNumber = readlnOrNull()?.toInt()
 
 
