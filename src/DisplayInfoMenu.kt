@@ -5,7 +5,7 @@ abstract class DisplayInfoMenu {
     abstract val details : String
 
     fun displayInfo() {
-        println(String.format("%-1d. %-15s | W %-4.1f | %s", recommend, name, price, details))
+        println(String.format("%-1d. %-32s | W %-4.1f | %s", recommend, name, price, details))
     }
 
 }

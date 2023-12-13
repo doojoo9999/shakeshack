@@ -1,8 +1,8 @@
-class RaspberryLemonade : Drinks() {
+class RaspberryLemonade : DisplayInfoMenu() {
     override val recommend : Int
         get() = 1
     override val name : String
-        get() = "Raspberry Lemonade\n"
+        get() = "Raspberry Lemonade"
 
     override val price : Double
         get() = 4.8

@@ -1,4 +1,4 @@
-class MintCookiesnCreamShake : FrozenCustard() {
+class MintCookiesnCreamShake : DisplayInfoMenu() {
     override val recommend : Int
         get() = 2
     override val name : String

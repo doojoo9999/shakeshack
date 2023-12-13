@@ -1,4 +1,4 @@
-class VanillaCookiesnCreamShake : Burger() {
+class VanillaCookiesnCreamShake : DisplayInfoMenu() {
 
     override val recommend : Int
         get() = 1

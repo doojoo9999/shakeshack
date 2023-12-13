@@ -1,4 +1,4 @@
-class CupnCones : FrozenCustard() {
+class CupnCones : DisplayInfoMenu() {
     override val recommend : Int
         get() = 5
     override val name : String
