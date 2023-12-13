@@ -1,4 +1,4 @@
-class ShackCoffee : Drinks() {
+class ShackCoffee : DisplayInfoMenu() {
     override val recommend : Int
         get() = 5
     override val name : String

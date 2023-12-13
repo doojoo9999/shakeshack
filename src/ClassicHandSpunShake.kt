@@ -1,4 +1,4 @@
-class ClassicHandSpunShake : FrozenCustard() {
+class ClassicHandSpunShake : DisplayInfoMenu() {
     override val recommend : Int
             get() = 3
         override val name : String

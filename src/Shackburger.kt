@@ -1,4 +1,4 @@
-class Shackburger : Burger() {
+class Shackburger : DisplayInfoMenu() {
 
     override val recommend : Int
         get() = 1

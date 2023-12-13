@@ -1,4 +1,4 @@
-class Floats : FrozenCustard() {
+class Floats : DisplayInfoMenu() {
     override val recommend : Int
         get() = 4
     override val name : String

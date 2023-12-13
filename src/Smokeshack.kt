@@ -1,4 +1,4 @@
-class Smokeshack : Burger(){
+class Smokeshack : DisplayInfoMenu(){
 
     override val recommend: Int
         get() = 2

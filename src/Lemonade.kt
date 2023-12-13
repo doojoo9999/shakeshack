@@ -1,4 +1,4 @@
-class Lemonade : Drinks() {
+class Lemonade : DisplayInfoMenu() {
     override val recommend : Int
         get() = 2
     override val name : String

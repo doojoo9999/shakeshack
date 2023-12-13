@@ -1,4 +1,4 @@
-class AbitaRootBeer :Beers() {
+class AbitaRootBeer :DisplayInfoMenu() {
     override val recommend : Int
         get() = 1
     override val name : String

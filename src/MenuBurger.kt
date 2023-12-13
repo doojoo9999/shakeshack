@@ -1,8 +1,7 @@
 class MenuBurger : Menu() {
 
-    override var menuList = ArrayList<Menu>()
-
-    override fun createMenuList() : List<Menu> {
+    override val menuList: List<DisplayInfoMenu> = createMenuList()
+    private fun createMenuList() : List<DisplayInfoMenu> {
         return listOf(
             Shackburger(),
             Smokeshack(),
@@ -12,9 +11,14 @@ class MenuBurger : Menu() {
         )
     }
 
-    init {
-        menuList.addAll(createMenuList())
-    }
+
+//    override var menuList = ArrayList<Menu>()
+
+//    override fun createMenuList() : List<DisplayInfoMenu> {
+
+//    init {
+//        menuList.addAll(createMenuList())
+//    }
 
 
 //    fun burgerMenu() {
