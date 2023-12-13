@@ -9,22 +9,25 @@ fun main() {
     println("4. Beers")
     println("0. Quit")
 
+    while(true) {
+        try {
+            val selectNumber = readlnOrNull()?.toInt()
+            when (selectNumber) {
+                1 -> MenuBurger().displayMenu()
 
-    val selectNumber = readlnOrNull()?.toInt()
+                2 -> MenuFrozenCustard().displayMenu()
 
+                3 -> MenuDrinks().displayMenu()
 
-    when (selectNumber) {
-        1 -> MenuBurger().burgerMenu()
+                4 -> MenuBeers().displayMenu()
 
-        2 -> MenuFrozenCustard().frozencustardMenu()
+                0 -> println("프로그램을 종료합니다.")
 
-        3 -> MenuDrinks().drinksMenu()
-
-        4 -> MenuBeers().beersMenu()
-
-        0 -> println("프로그램을 종료합니다.")
-
-        else -> throw IllegalArgumentException("메뉴를 다시 확인해 주세요.")
+            }
+        } catch (e: java.lang.NumberFormatException) {
+            println("메뉴를 확인하신 뒤 숫자를 다시 입력해 주세요.")
+        }
     }
+
 
 }

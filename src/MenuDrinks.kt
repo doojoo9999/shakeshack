@@ -1,7 +1,18 @@
-class MenuDrinks : KioskMenu() {
+class MenuDrinks : Menu() {
 
-    fun drinksMenu() {
-        println("[ Drinks MENU ]")
+    override var menuList = ArrayList<Menu>()
+
+    override fun createMenuList(): List<Menu> {
+        return listOf(
+            RaspberryLemonade(),
+            Lemonade(),
+            FreshBrewedIcedTea(),
+            FountainSoda(),
+            ShackCoffee()
+        )
     }
 
+    init {
+        menuList.addAll(createMenuList())
+    }
 }
