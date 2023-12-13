@@ -1,6 +1,6 @@
-class KioskMainMenu : KioskMenu(){
-
-    fun mainMenu() {
-
-        }
-    }
+//class KioskMainMenu : KioskMenu(){
+//
+//    fun mainMenu() {
+//
+//        }
+//    }
