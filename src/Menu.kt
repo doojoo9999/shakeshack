@@ -6,7 +6,10 @@ abstract class Menu {
         val menuType = this.javaClass.simpleName
         println("[ $menuType MENU ]")
         menuList.forEach { it.displayInfo() }
+        println("0. 뒤로 가기")
     }
+
+
 
 //    abstract val menuList: ArrayList<Menu>
 //
