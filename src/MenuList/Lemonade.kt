@@ -1,8 +1,12 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class Lemonade : DisplayInfoMenu() {
     override val recommend : Int
         get() = 2
     override val name : String
-        get() = "Lemonade"
+        get() = "MenuList.Lemonade"
 
     override val price : Double
         get() = 4.3

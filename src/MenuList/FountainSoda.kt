@@ -1,3 +1,7 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class FountainSoda : DisplayInfoMenu() {
     override val recommend : Int
         get() = 4

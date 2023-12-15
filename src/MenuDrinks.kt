@@ -1,3 +1,5 @@
+import MenuList.*
+
 class MenuDrinks : Menu() {
     override val menuList: List<DisplayInfoMenu> = createMenuList()
     private fun createMenuList(): List<DisplayInfoMenu> {
@@ -15,11 +17,11 @@ class MenuDrinks : Menu() {
 //
 //    override fun createMenuList(): List<DisplayInfoMenu> {
 //        return listOf(
-//            RaspberryLemonade(),
-//            Lemonade(),
-//            FreshBrewedIcedTea(),
-//            FountainSoda(),
-//            ShackCoffee()
+//            MenuList.RaspberryLemonade(),
+//            MenuList.Lemonade(),
+//            MenuList.FreshBrewedIcedTea(),
+//            MenuList.FountainSoda(),
+//            MenuList.ShackCoffee()
 //        )
 //    }
 //

@@ -1,3 +1,7 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class ShackCoffee : DisplayInfoMenu() {
     override val recommend : Int
         get() = 5
