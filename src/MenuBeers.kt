@@ -1,3 +1,5 @@
+import MenuList.AbitaRootBeer
+
 class MenuBeers : Menu() {
     override val menuList: List<DisplayInfoMenu> = createMenuList()
     private fun createMenuList(): List<DisplayInfoMenu> {
@@ -10,7 +12,7 @@ class MenuBeers : Menu() {
 //
 //    override fun createMenuList(): List<DisplayInfoMenu> {
 //        return listOf(
-//            AbitaRootBeer()
+//            MenuList.AbitaRootBeer()
 //        )
 //    }
 //

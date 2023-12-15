@@ -1,4 +1,8 @@
-class AbitaRootBeer :DisplayInfoMenu() {
+package MenuList
+
+import DisplayInfoMenu
+
+class AbitaRootBeer : DisplayInfoMenu() {
     override val recommend : Int
         get() = 1
     override val name : String
