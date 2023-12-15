@@ -13,4 +13,8 @@ class ClassicHandSpunShake : DisplayInfoMenu() {
 
         override val details : String
             get() = "쫀득하고 진한 커스터드가 들어간 클래식 쉐이크"
-    }
+
+        override val category : String
+            get() = "FrozenCustard"
+
+}

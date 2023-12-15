@@ -14,4 +14,8 @@ class Shackburger : DisplayInfoMenu() {
 
     override val details : String
         get() = "토마토, 양상추, 쉑소스가 토핑된 치즈버거"
+
+    override val category : String
+        get() = "Burger"
+
 }

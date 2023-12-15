@@ -1,11 +1,11 @@
 class AddCart {
 
-    fun addCart(burgerSelect: Int) {
-        val burger = MenuBurger().menuList[burgerSelect - 1]
+    fun addCart(menuSelect: Int) {
+        val burger = MenuBurger().menuList[menuSelect - 1]
 
-        cart.add(dataOrder(burger.recommend, burger.name, burger.price, burger.details))
+        cart.add(dataOrder(menu.recommend, menu.name, menu.price, menu.details, menu.category))
 
-        println("${burger.name}가 장바구니에 추가되었습니다.")
+        println("${menu.name}가 장바구니에 추가되었습니다.")
 
 
     }

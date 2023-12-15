@@ -13,4 +13,7 @@ class FountainSoda : DisplayInfoMenu() {
 
     override val details : String
         get() = "코카콜라, 코카콜라 제로, 스프라이트, 환타 오렌지, 환타 그레이프, 환타 파인애플"
+
+    override val category : String
+        get() = "Drink"
 }

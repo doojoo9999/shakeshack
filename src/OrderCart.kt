@@ -1,3 +1,5 @@
+import kotlin.math.truncate
+
 class OrderCart {
 
     fun orderCart() {
@@ -17,7 +19,7 @@ class OrderCart {
                         println("장바구니가 비어있습니다.")
                         println("메인 화면으로 돌아갑니다.")
                     } else {
-                        println("[ Orders ]")
+                        println("[ category Orders ]")
                         println("주문이 완료되었습니다. 감사합니다.")
                         cart.clear()
                         break
@@ -26,7 +28,6 @@ class OrderCart {
 
                 2 -> {
                     println("주문이 취소되었습니다. 다시 선택해주세요.")
-                    return main()
                 }
 
                 else -> {

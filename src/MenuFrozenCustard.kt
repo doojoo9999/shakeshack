@@ -1,7 +1,4 @@
-package MenuList
-
-import DisplayInfoMenu
-import Menu
+import MenuList.*
 
 class MenuFrozenCustard : Menu() {
     override val menuList: List<DisplayInfoMenu> = createMenuList()

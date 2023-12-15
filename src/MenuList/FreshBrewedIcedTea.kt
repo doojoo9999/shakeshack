@@ -13,4 +13,7 @@ class FreshBrewedIcedTea : DisplayInfoMenu() {
 
     override val details : String
         get() = "직접 유기농 홍차를 우려낸 아이스 티"
+
+    override val category : String
+        get() = "Drink"
 }

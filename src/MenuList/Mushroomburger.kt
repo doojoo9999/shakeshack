@@ -14,4 +14,8 @@ class Mushroomburger : DisplayInfoMenu(){
 
     override val details : String
         get() = "몬스터 치즈와 체다 치즈로 속을 채운 베지테리안 버거"
+
+    override val category : String
+        get() = "Burger"
+
 }

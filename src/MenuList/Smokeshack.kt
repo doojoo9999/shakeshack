@@ -14,4 +14,8 @@ class Smokeshack : DisplayInfoMenu(){
 
     override val details : String
         get() = "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈"
+
+    override val category : String
+        get() = "Burger"
+
 }

@@ -13,4 +13,7 @@ class RaspberryLemonade : DisplayInfoMenu() {
 
     override val details : String
         get() = "쉐이크쉑 시그니처 레몬에이드에 상큼 달콤한 라즈베리가 더해진 시즌 한정 레몬에이드"
+
+    override val category : String
+        get() = "Drink"
 }

@@ -14,4 +14,8 @@ class VanillaCookiesnCreamShake : DisplayInfoMenu() {
 
     override val details : String
         get() = "부드러운 바닐라 커스터드와 바삭한 쿠키 크럼블이 어우러진 홀리데이 쉐이크"
+
+    override val category : String
+        get() = "FrozenCustard"
+
 }

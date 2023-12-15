@@ -13,4 +13,8 @@ class CupnCones : DisplayInfoMenu() {
 
     override val details : String
         get() = "매일 점포에서 신선하게 제조하는 쫀득하고 진한 아이스크림"
+
+    override val category : String
+        get() = "FrozenCustard"
+
 }

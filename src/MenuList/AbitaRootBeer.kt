@@ -13,4 +13,7 @@ class AbitaRootBeer : DisplayInfoMenu() {
 
     override val details : String
         get() = "청량감 있는 독특한 미국식 무알콜 탄산음료"
+
+    override val category : String
+        get() = "Beer"
 }

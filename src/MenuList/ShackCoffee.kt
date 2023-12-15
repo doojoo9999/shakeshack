@@ -14,4 +14,8 @@ class ShackCoffee : DisplayInfoMenu() {
     override val details : String
         get() = "쉑 블렌드 원두를 사용한 밸런스 좋은 블랙 커피(일부 점포)"
 
+    override val category : String
+        get() = "Drink"
+
+
 }

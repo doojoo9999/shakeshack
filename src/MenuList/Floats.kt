@@ -13,4 +13,8 @@ class Floats : DisplayInfoMenu() {
 
     override val details : String
         get() = "부드러운 바닐라 커스터드와 톡톡 터지는 탄산이 만나 탄생한 색다른 음료"
+
+    override val category : String
+        get() = "FrozenCustard"
+
 }

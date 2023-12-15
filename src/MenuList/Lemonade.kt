@@ -13,4 +13,7 @@ class Lemonade : DisplayInfoMenu() {
 
     override val details : String
         get() = "매장에서 직접 만드는 상큼한 레몬에이드"
+
+    override val category : String
+        get() = "Drink"
 }
