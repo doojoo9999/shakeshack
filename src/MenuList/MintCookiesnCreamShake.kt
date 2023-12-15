@@ -1,3 +1,7 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class MintCookiesnCreamShake : DisplayInfoMenu() {
     override val recommend : Int
         get() = 2

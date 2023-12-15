@@ -1,3 +1,5 @@
+import MenuList.*
+
 class MenuBurger : Menu() {
 
     override val menuList: List<DisplayInfoMenu> = createMenuList()
@@ -22,11 +24,11 @@ class MenuBurger : Menu() {
 
 
 //    fun burgerMenu() {
-//        val shackburger = Shackburger()
-//        val smokeshack = Smokeshack()
-//        val mushroomsburger = Mushroomburger()
-//        val cheeseburger = Cheeseburger()
-//        val hamburger = Hamburger()
+//        val shackburger = MenuList.Shackburger()
+//        val smokeshack = MenuList.Smokeshack()
+//        val mushroomsburger = MenuList.Mushroomburger()
+//        val cheeseburger = MenuList.Cheeseburger()
+//        val hamburger = MenuList.Hamburger()
 
 //        println("[ Burgers MENU ]")
 //

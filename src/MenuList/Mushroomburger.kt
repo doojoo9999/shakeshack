@@ -1,3 +1,7 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class Mushroomburger : DisplayInfoMenu(){
 
     override val recommend: Int

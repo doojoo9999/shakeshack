@@ -1,3 +1,7 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class FreshBrewedIcedTea : DisplayInfoMenu() {
     override val recommend : Int
         get() = 3

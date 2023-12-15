@@ -1,3 +1,5 @@
+import MenuList.MenuFrozenCustard
+
 //TIP Press <shortcut raw="SHIFT"/> twice to open the Search Everywhere dialog and type <b>show whitespaces</b>,
 // then press <shortcut raw="ENTER"/>. You can now see whitespace characters in your code.
 
@@ -6,13 +8,18 @@ val cart = mutableListOf<dataOrder>()
 fun main() {
 
 
+    println("SHAKESHACK BURGER에 오신 것을 환영합니다.")
+    println("메뉴판을 보시고 메뉴를 골라 입력해 주세요.")
 
     println("[SHAKESHACK MENU]")
-    println("1. BURGER")
-    println("2. Frozen Custard")
-    println("3. Drinks")
-    println("4. Beers")
-    println("0. Quit")
+    println(String.format("%-1s. %-32s | %s ","1", "Burgers", "앵거스 비프 통살을 다져 만든 버거."))
+    println(String.format("%-1s. %-32s | %s ","2", "Forzen Custard", "매장에서 신선하게 만드는 아이스크림."))
+    println(String.format("%-1s. %-32s | %s ","3", "Drinks", "매장에서 직접 만드는 음료."))
+    println(String.format("%-1s. %-32s | %s ","4", "Beer", "뉴욕 브루클린 브루어리에서 양조한 맥주"))
+    println()
+    println("[ ORDER MENU ]")
+    println(String.format("%-1s. %-32s | %s ","5", "Order", "장바구니를 확인한 후 주문합니다."))
+    println(String.format("%-1s. %-32s | %s ","6", "Cancle", "진행 중인 주문을 취소합니다."))
 
 
 
@@ -85,6 +92,16 @@ fun main() {
                         }
                         else -> println("메뉴를 확인하신 뒤 숫자를 다시 입력해 주세요.")
                     }
+                }
+
+                5 -> {
+                    val callcart = OrderCart()
+                    callcart.orderCart()
+                }
+
+                6 -> {
+                    println("프로그램을 종료합니다.")
+                 break
                 }
 
 

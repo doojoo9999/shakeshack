@@ -1,8 +1,12 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class Floats : DisplayInfoMenu() {
     override val recommend : Int
         get() = 4
     override val name : String
-        get() = "Floats"
+        get() = "MenuList.Floats"
 
     override val price : Double
         get() = 6.5

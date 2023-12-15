@@ -1,9 +1,13 @@
+package MenuList
+
+import DisplayInfoMenu
+
 class Hamburger : DisplayInfoMenu(){
 
     override val recommend : Int
         get() = 5
     override val name : String
-        get() = "Hamburger"
+        get() = "MenuList.Hamburger"
     override val price : Double
         get() = 5.4
 
